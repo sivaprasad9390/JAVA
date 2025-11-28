@@ -1,0 +1,34 @@
+# Steps to Install Java (JDK) on Windows
+
+1. Go to the official Oracle JDK download page:
+   https://www.oracle.com/java/technologies/downloads/
+
+2. Scroll down and select the version you want (e.g., JDK 17 or JDK 21).
+
+3. Under Windows, download the Installer (.exe file).
+
+4. After downloading, double-click the installer to run it.
+
+5. Click "Next" → Choose installation path → Click "Next" again.
+
+6. Wait for installation to complete.
+
+7. After installation, open Command Prompt (cmd).
+
+8. Type the following command to verify installation:
+   java -version
+
+9. If Java is not recognized, you need to set the PATH manually:
+   - Go to Control Panel → System → Advanced System Settings.
+   - Click “Environment Variables.”
+   - Under “System Variables,” find “Path” → Click Edit.
+   - Add the path:
+     C:\Program Files\Java\jdk-<version>\bin
+
+10. Click OK on all windows to save.
+
+11. Reopen Command Prompt and check again:
+    java -version
+
+12. Java is successfully installed!
+
