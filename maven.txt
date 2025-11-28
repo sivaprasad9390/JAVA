@@ -1,0 +1,39 @@
+
+
+1. Go to the official Apache Maven download page:
+   https://maven.apache.org/download.cgi
+
+2. Under "Files", download the Binary ZIP archive.
+   Example: apache-maven-3.9.x-bin.zip
+
+3. After downloading, extract the ZIP file to a directory.
+   Recommended location:
+   C:\Program Files\Apache\Maven
+
+4. Open the extracted Maven folder and note the path.
+   Example:
+   C:\Program Files\Apache\Maven\apache-maven-3.9.x
+
+5. Set up Environment Variables:
+
+   a. Open:
+      Control Panel → System and Security → System
+      Click "Advanced System Settings"
+      Click "Environment Variables"
+
+   b. Under "System Variables", click "New":
+      Variable Name: M2_HOME
+      Variable Value: C:\Program Files\Apache\Maven\apache-maven-3.9.x
+
+   c. Add Maven to PATH:
+      Select "Path" → Click "Edit" → Click "New"
+      Add:
+      C:\Program Files\Apache\Maven\apache-maven-3.9.x\bin
+
+6. Click OK on all windows to save changes.
+
+7. Open Command Prompt (cmd) and verify Maven installation:
+   mvn -version
+
+8. If the version shows correctly, Maven is successfully installed.
+
